@@ -1,10 +1,10 @@
 {
-  "name": "github-web",
+  "name": "d6y-syntax",
   "theme": "syntax",
   "version": "1.1.0",
   "private": false,
-  "description": "GitHub website style syntax theme.",
-  "repository": "https://github.com/JonMidhir/github-web",
+  "description": "@d6y fork of GitHub website style syntax theme.",
+  "repository": "https://github.com/d6y/github-web",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

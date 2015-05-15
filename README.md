@@ -1,5 +1,4 @@
-# Github Website theme
+# My Atom Theme
 
-Syntax highlighting for Atom, just like it is in the Github website code viewer.
+Fork of https://github.com/d6y/github-web
 
-!["Screenshot of Github-web"](https://s3-us-west-2.amazonaws.com/useful-images-midhir/github-web.png "Screenshot of Github-web")
