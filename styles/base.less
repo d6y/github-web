@@ -11,7 +11,7 @@ atom-text-editor, :host {
 }
 
 atom-text-editor, :host {
-  font-family: "CMU Typewriter Text", "Menlo", Consolas, "Liberation Mono", Courier, monospace;
+  font-family: "CMU Typewriter Text", "Monoid", "Menlo", Consolas, "Liberation Mono", Courier, monospace;
 
   .invisible-character,
   .indent-guide {
@@ -68,45 +68,46 @@ atom-text-editor, :host {
 }
 
 .entity {
-  color: @magenta;
+  xxx-color: @magenta;
   font-weight: bold;
 
   &.class {
-    color: @blue;
+    xx-color: @blue;
   }
 
   &.inherited-class {
-    color: @cyan;
+    xxx-color: @cyan;
     font-weight: normal;
   }
 }
 
 .support.class {
-  color: @cyan;
+  xxx-color: @cyan;
   font-weight: normal;
 }
 
 .keyword {
   color: @black;
-  font-weight: bold;
+  xxx-font-weight: bold;
 }
 
 .storage.type {
-  color: @green;
+  xxx-color: @green;
 }
 
 .constant {
-  color: @violet;
+  color: @green;
 
   &.numeric,
   &.boolean {
-    color: @black;
-    font-weight: bold;
+    xxx-color: @black;
+    xxx-font-weight: bold;
   }
 }
 
 .variable {
   color: @cyan;
+  font-weight: bold;
 
   &.parameter {
     color: @black;
@@ -131,10 +132,10 @@ atom-text-editor, :host {
 }
 
 .string {
-  color: @red;
+  color: @green;
 
   .constant.character.escape {
-    color: @red;
+    color: @green;
   }
 
   &.regexp {
